@@ -20,10 +20,16 @@ public class MonsterFSM : MonoBehaviour {
     public float cureentTime; //누적시간.
     public float distancePlayerMonster; //플레이어와 몬스터의 거리.
 
+    MonsterParams myParams;
+    PlayerParams curPlayerParams;
+
 
     void Start () {
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+
+        myParams = GetComponent<MonsterParams>();
+        myParams.deadEvent.AddListener(CallDeadEvent);
 
         Player = GameObject.FindGameObjectWithTag("Player");
 
@@ -149,5 +155,10 @@ public class MonsterFSM : MonoBehaviour {
     void CheckPlayerPosition()
     {
         distancePlayerMonster = Vector3.Distance(Player.transform.position, transform.position);
+    }
+    
+    void CallDeadEvent()
+    {
+        //죽었을때 실행할 명령어.
     }
 }
