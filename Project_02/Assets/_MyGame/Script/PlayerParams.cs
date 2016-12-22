@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerParams : CharParams
-{
+public class PlayerParams : CharParams {
 
     public override void InitParams()
     {

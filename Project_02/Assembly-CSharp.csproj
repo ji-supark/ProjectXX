@@ -85,10 +85,13 @@
      <Compile Include="Assets\Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
      <Compile Include="Assets\TestScript\AniEvent.cs" />
      <Compile Include="Assets\TestScript\Crashed.cs" />
+     <Compile Include="Assets\TestScript\NavTest.cs" />
      <Compile Include="Assets\TestScript\SampleBullet.cs" />
      <Compile Include="Assets\TestScript\SampleBulletMonster.cs" />
      <Compile Include="Assets\TestScript\SampleHPBar.cs" />
      <Compile Include="Assets\TestScript\SampleItem.cs" />
+     <Compile Include="Assets\TestScript\TestMonsterFSM.cs" />
+     <Compile Include="Assets\TestScript\TestPlayerFSM.cs" />
      <Compile Include="Assets\TestScript\test.cs" />
      <Compile Include="Assets\_MyGame\Script\Billboard.cs" />
      <Compile Include="Assets\_MyGame\Script\CameraController.cs" />
@@ -98,6 +101,7 @@
      <Compile Include="Assets\_MyGame\Script\MonsterParams.cs" />
      <Compile Include="Assets\_MyGame\Script\PlayerParams.cs" />
      <Compile Include="Assets\_MyGame\Script\SpawnManager.cs" />
+     <Compile Include="Assets\_MyGame\Script\StartEffect.cs" />
      <None Include="Assets\Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Assets\Warrior 2 Swords\sources\Toon Shading\Toony-Basic.shader" />
